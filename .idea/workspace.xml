@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7a1c9a30-8688-45fc-8a61-d203628b750f" name="Default Changelist" comment="1">
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/.gitingore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/.idea/turbo-proxy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/build/main/Analysis-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/build/main/COLLECT-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/build/main/EXE-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/build/main/PKG-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/build/main/PYZ-00.pyz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/build/main/PYZ-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/build/main/base_library.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/build/main/main.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/build/main/main.pkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/build/main/warn-main.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/build/main/xref-main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/MSVCP140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/VCRUNTIME140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/VCRUNTIME140_1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/_asyncio.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/_bz2.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/_ctypes.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/_decimal.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/_hashlib.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/_lzma.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/_multiprocessing.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/_overlapped.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/_queue.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/_socket.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/_ssl.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/_uuid.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/_wmi.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-core-console-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-core-datetime-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-core-debug-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-core-errorhandling-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-core-file-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-core-file-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-core-file-l2-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-core-handle-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-core-heap-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-core-interlocked-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-core-libraryloader-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-core-localization-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-core-memory-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-core-namedpipe-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-core-processenvironment-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-core-processthreads-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-core-processthreads-l1-1-1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-core-profile-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-core-rtlsupport-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-core-string-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-core-synch-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-core-synch-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-core-sysinfo-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-core-timezone-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-core-util-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-crt-conio-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-crt-convert-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-crt-environment-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-crt-filesystem-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-crt-heap-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-crt-locale-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-crt-math-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-crt-process-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-crt-runtime-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-crt-stdio-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-crt-string-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-crt-time-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/api-ms-win-crt-utility-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/base_library.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/certifi/cacert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/certifi/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/libcrypto-3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/libffi-8.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/libssl-3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/pydantic_core/_pydantic_core.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/pyexpat.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/python3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/python312.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/select.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/tornado/speedups.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/ucrtbase.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/ujson.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/_internal/unicodedata.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/dist/main/main.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/main.spec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/openai_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/openai_provider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/packet_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbo-proxy/tornado_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/auth/auth.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/auth/auth.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/auth/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/chat-history/chat-history.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/chat-history/chat-history.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/chat-history/chat-history.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/chat-history/chat-history.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/chat-main/chat-main.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/chat-main/chat-main.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/chat-main/chat-main.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/chat-main/chat-main.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/chat-main/model-selector/model-selector.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/chat-main/model-selector/model-selector.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/chat-main/model-selector/model-selector.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/chat-main/model-selector/model-selector.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/chat-page/chat-page.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/chat-page/chat-page.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/chat-page/chat-page.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/chat-page/chat-page.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/components-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/components.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/dialogue/dialogue.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/dialogue/dialogue.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/dialogue/dialogue.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/dialogue/dialogue.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/error-page/error-page.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/error-page/error-page.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/error-page/error-page.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/error-page/error-page.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/login-label/login-label.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/login-label/login-label.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/login-label/login-label.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/login-label/login-label.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/login-page/login-page.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/login-page/login-page.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/login-page/login-page.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/login-page/login-page.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/settings/settings.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/settings/settings.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/settings/settings.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/components/settings/settings.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/fetch/fetch.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/fetch/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/fetch/openai.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/models/DallImageModel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/models/chat.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/models/chat.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/models/chatHistory.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/models/chatList.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/models/chatStream.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/models/configuration.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/models/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/models/lastSession.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/models/message.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/models/models.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/share-datas/chatData.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/share-datas/configuration.resolver.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/share-datas/configuration.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/share-datas/datas.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/share-datas/db.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/share-datas/historyTitle.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/app/share-datas/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/assets/chat-gpt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/assets/programmer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turboUI/src/theme.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/turboUI/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/turboUI/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/turboUI/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/turboUI/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/turboUI/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/turboUI/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/turboUI/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/turboUI/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/turboUI/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/turboUI/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/turboUI/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/turboUI/src/app/app.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/turboUI/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/turboUI/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/turboUI/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/turboUI/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/turboUI/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/turboUI/src/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2YlImnQqPqYlVxSa0BJbFNBO3JE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a1c9a30-8688-45fc-8a61-d203628b750f" name="Default Changelist" comment="" />
+      <created>1701093904912</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701093904912</updated>
+      <workItem from="1701093906864" duration="193000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

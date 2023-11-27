@@ -1,0 +1,48 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:turbo.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="turbo.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="turbo">
+
+    <Design.DataContext>
+        <!-- This only sets the DataContext for the previewer in an IDE,
+             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+    <Window.Styles>
+        <Style Selector="Border.card">
+            <Setter Property="Padding" Value="5"></Setter>
+        </Style>
+    </Window.Styles>
+    <Grid>
+        <DockPanel>
+            <Border Classes="card" DockPanel.Dock="Top">
+                <Grid ColumnDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto">
+                    <Label Grid.Column="0">web 服务器</Label>
+                    <TextBox Grid.Column="1" Text="{Binding WebPort}"></TextBox>
+                    <Label Grid.Column="2" Content="{Binding WebProcess.Id}"></Label>
+                    <Label Grid.Column="3">Id: </Label>
+                    <Button x:Name="WebServer" Click="WebServer_OnClick" Grid.Column="4">启动或重启</Button>
+                    <TextBox Grid.Column="5" Text="{Binding CombinedString}"></TextBox>
+                    <Button x:Name="OpenBrowser" Grid.Column="6" Click="OpenBrowser_OnClick">在默认浏览器中打开</Button>
+                </Grid>
+            </Border>
+            <Border Classes="card" DockPanel.Dock="Top">
+                <Grid ColumnDefinitions="Auto,Auto,Auto,Auto,Auto">
+                    <Label Grid.Column="0">web 服务器</Label>
+                    <TextBox Grid.Column="1" Text="{Binding ProxyPort}"></TextBox>
+                    <Label Grid.Column="2">Id: </Label>
+                    <Label Grid.Column="3" Content="{Binding ProxyProcess.Id}"></Label>
+                    <Button x:Name="ProxyServer" Click="ProxyServer_OnClick" Grid.Column="4">启动或重启</Button>
+                </Grid>
+            </Border>
+            <Panel></Panel>
+        </DockPanel>
+    </Grid>
+
+</Window>
