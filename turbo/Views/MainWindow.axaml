@@ -34,7 +34,7 @@
             </Border>
             <Border Classes="card" DockPanel.Dock="Top">
                 <Grid ColumnDefinitions="Auto,Auto,Auto,Auto,Auto">
-                    <Label Grid.Column="0">web 服务器</Label>
+                    <Label Grid.Column="0">Openai解析服务器(项目标准)</Label>
                     <TextBox Grid.Column="1" Text="{Binding ProxyPort}"></TextBox>
                     <Label Grid.Column="2">Id: </Label>
                     <Label Grid.Column="3" Content="{Binding ProxyProcess.Id}"></Label>

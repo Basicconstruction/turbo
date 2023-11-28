@@ -12,8 +12,6 @@ namespace turbo.Views
         public MainWindow()
         {
             InitializeComponent();
-            // StartWebProcess();
-            // StartProxyProcess();
         }
 
         private MainWindowViewModel Model => (MainWindowViewModel)this.DataContext!;
@@ -37,10 +35,11 @@ namespace turbo.Views
             Model.WebProcess?.Kill(); // 终止当前进程
             try
             {
-                Model.WebProcess = Process.Start("/turbo-server/turbo-pool.exe", $" {Model.WebPort}");
+                Model.WebProcess = Process.Start($"{path}/turbo-server/turbo-pool.exe", $"{Model.WebPort} \"{path}/turbo-server/wwwroot\"");
             }
-            catch (Exception)
+            catch (Exception e)
             {
+                Console.WriteLine(e);
                 //
             }
         }
@@ -48,12 +47,15 @@ namespace turbo.Views
         {
             // 启动或重新启动代理进程
             Model.ProxyProcess?.Kill(); // 终止当前进程
+            var path = Path.GetDirectoryName(Model.RelativeRootPath)!;
+
             try
             {
-                Model.ProxyProcess = Process.Start("/turbo-server/turbo-proxy.exe", $"{Model.ProxyPort}");
+                Model.ProxyProcess = Process.Start($"{path}/turbo-server/turbo-proxy.exe", $"--port={Model.ProxyPort}");
             }
-            catch (Exception)
+            catch (Exception e)
             {
+                Console.WriteLine(e);
                 //
             }
         }

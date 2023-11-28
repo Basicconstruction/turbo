@@ -1,3 +1,8 @@
+using System;
+using System.IO;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.Extensions.FileProviders;
 
@@ -6,7 +11,7 @@ var port = 8889; // 默认端口号
 
 if (args.Length>0&& int.TryParse(args[0], out var parsedPort))
 {
-    port = parsedPort; // 如果第二个参数是有效的端口号，使用该端口号
+    port = parsedPort; // 如果第1个参数是有效的端口号，使用该端口号
 }
 
 builder.WebHost.UseUrls($"http://localhost:{port}");
@@ -19,7 +24,7 @@ if (args.Length > 1)
 }
 if (string.IsNullOrEmpty(staticFilesPath) || !Directory.Exists(staticFilesPath))
 {
-    staticFilesPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
+    staticFilesPath = Path.Combine(Path.GetDirectoryName(Environment.ProcessPath!)!, "wwwroot");
     Console.WriteLine($"No static file path provided. Using default path: {staticFilesPath}");
 }
 var contentTypeProvider = new FileExtensionContentTypeProvider
@@ -37,19 +42,20 @@ var contentTypeProvider = new FileExtensionContentTypeProvider
         [".eot"] = "application/vnd.ms-fontobject",
     }
 };
-// 添加静态文件中间件
+// // 添加静态文件中间件
 app.UseStaticFiles(new StaticFileOptions
 {
     FileProvider = new PhysicalFileProvider(staticFilesPath),
     ContentTypeProvider = contentTypeProvider
 });
 Console.WriteLine($"Run as static server: at {staticFilesPath}");
-
+Console.WriteLine($"Port: {port}");
 // 添加后备文件的功能
 app.Use(async (context, next) =>
 {
-    if (!string.IsNullOrEmpty(staticFilesPath) && Directory.Exists(staticFilesPath))
+    if (!File.Exists(staticFilesPath+ context.Request.Path))
     {
+        await Console.Out.WriteLineAsync(context.Request.Path);
         var fileProvider = new PhysicalFileProvider(staticFilesPath);
         var fileInfo = fileProvider.GetFileInfo("index.html");
 
@@ -64,6 +70,7 @@ app.Use(async (context, next) =>
     }
     else
     {
+        await Console.Out.WriteLineAsync($"contain {staticFilesPath + context.Request.Path}");
         await next();
     }
 });
