@@ -1,8 +1,3 @@
-using System;
-using System.IO;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.Extensions.FileProviders;
 
@@ -14,7 +9,7 @@ if (args.Length>0&& int.TryParse(args[0], out var parsedPort))
     port = parsedPort; // 如果第1个参数是有效的端口号，使用该端口号
 }
 
-builder.WebHost.UseUrls($"http://localhost:{port}");
+builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
 var app = builder.Build();
 var staticFilesPath = ""; // 手动指定的静态文件路径
 
@@ -53,7 +48,7 @@ Console.WriteLine($"Port: {port}");
 // 添加后备文件的功能
 app.Use(async (context, next) =>
 {
-    if (!File.Exists(staticFilesPath+ context.Request.Path))
+    if (!File.Exists(staticFilesPath + context.Request.Path))
     {
         await Console.Out.WriteLineAsync(context.Request.Path);
         var fileProvider = new PhysicalFileProvider(staticFilesPath);
