@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "turbo", "turbo\turbo.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "turbo-pool", "turbo-pool\turbo-pool.csproj", "{5A6C47DA-D41B-431E-8065-8FB29A00946D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "turbo-light", "turbo-light\turbo-light.csproj", "{41F2D41B-B640-4E52-9314-8682082DC449}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5A6C47DA-D41B-431E-8065-8FB29A00946D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A6C47DA-D41B-431E-8065-8FB29A00946D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A6C47DA-D41B-431E-8065-8FB29A00946D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41F2D41B-B640-4E52-9314-8682082DC449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41F2D41B-B640-4E52-9314-8682082DC449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41F2D41B-B640-4E52-9314-8682082DC449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41F2D41B-B640-4E52-9314-8682082DC449}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
