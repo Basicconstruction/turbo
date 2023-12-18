@@ -28,8 +28,11 @@ if (notFound)
 {
     File.WriteAllText(configFilePath, JsonConvert.SerializeObject(lightConfig,Formatting.Indented));
 }
-Process.Start("explorer.exe", $"http://localhost:{lightConfig.TurboPoolPort}");
 
+if (lightConfig.StartTurboPool == true)
+{
+    Process.Start("explorer.exe", $"http://localhost:{lightConfig.TurboPoolPort}");
+}
 var turboProxyProcess = new Process();
 turboProxyProcess.StartInfo.FileName = "turbo-proxy.exe";
 turboProxyProcess.StartInfo.Arguments = $"--port={lightConfig.TurboProxyPort}";
@@ -42,20 +45,51 @@ var absolutePath = Path.GetFullPath("wwwroot");
 turboPoolProcess.StartInfo.Arguments = $"{lightConfig.TurboPoolPort} {absolutePath}";
 turboPoolProcess.StartInfo.UseShellExecute = false;
 turboPoolProcess.StartInfo.RedirectStandardOutput = true;
-
-Console.WriteLine("Starting Turbo Proxy...");
-turboProxyProcess.Start();
-        
-Console.WriteLine("Starting Turbo Pool...");
-turboPoolProcess.Start();
-while (!turboProxyProcess.HasExited || !turboPoolProcess.HasExited)
+if (lightConfig.StartTurboProxy==true)
 {
-    Console.WriteLine(turboProxyProcess.StandardOutput.ReadToEnd());
-    Console.WriteLine(turboPoolProcess.StandardOutput.ReadToEnd());
+    Console.WriteLine("Starting Turbo Proxy...");
+    turboProxyProcess.Start();
+    Console.WriteLine($"turbo-proxy is listening at 0.0.0.0:{lightConfig.TurboProxyPort}, " +
+                      $"使用 http://localhost:{lightConfig.TurboProxyPort}来访问");
+}
+if (lightConfig.StartTurboPool == true)
+{
+    Console.WriteLine("Starting Turbo Pool...");
+    turboPoolProcess.Start();
+    Console.WriteLine($"turbo-pool is listening at 0.0.0.0:{lightConfig.TurboPoolPort}, " +
+                      $"使用 http://localhost:{lightConfig.TurboPoolPort}来访问");
+}
+while (NotExit())
+{
+    if (lightConfig.StartTurboPool==true)
+    {
+        Console.WriteLine(await turboPoolProcess.StandardOutput.ReadToEndAsync());
+    }
+
+    if (lightConfig.StartTurboProxy == true)
+    {
+        Console.WriteLine(await turboProxyProcess.StandardOutput.ReadToEndAsync());
+    }
+    
+    
 }
 
-turboProxyProcess.WaitForExit();
-turboPoolProcess.WaitForExit();
+if (lightConfig.StartTurboPool==true)
+{
+    turboPoolProcess.WaitForExit();
+}
+
+if (lightConfig.StartTurboProxy == true)
+{
+    turboProxyProcess.WaitForExit();
+}
+
 
 Console.WriteLine("Both processes have exited. Press any key to close this console.");
 Console.ReadKey();
+
+bool NotExit()
+{
+    return (lightConfig!.StartTurboPool == true && turboPoolProcess!.HasExited) ||
+           (lightConfig.StartTurboProxy == true && turboProxyProcess!.HasExited);
+}
